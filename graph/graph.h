@@ -13,6 +13,7 @@ typedef struct {
         char messageSent[M][140];
         char messageReceived[M][140];
         int nbTweetsReceived;
+        int nbFollowers = 0;
 } node_t;
 
 

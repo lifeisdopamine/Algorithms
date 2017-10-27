@@ -1,5 +1,6 @@
 #include "graph.h"
 
+
 int nbUsers = 0;
 
 void addNode(char name[])
@@ -14,7 +15,10 @@ void addEdge(node_t from, node_t to)
 {
         A[from][to] = 1;
 }
-void deleteNode(node_t n);
+void deleteNode(node_t n) 
+{
+        
+}
 void delete_Edge(int from, int to)
 {
         A[from][to] = 0;
