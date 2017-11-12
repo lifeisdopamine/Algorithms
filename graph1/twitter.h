@@ -1,0 +1,10 @@
+void sendTweet(int from, char tweet[]);
+void ReceiveTweet(int to, char tweet[]);
+void follow(int i, int j);
+void unfollow(int i, int j);
+void printFollowersOf(int i);
+void printFollowing(int i);
+void commonFollowersOf(int i, int j);
+void mostFollowedUser();
+void printUsersBySortedNumberofFollowers();
+void isort();

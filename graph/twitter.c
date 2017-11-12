@@ -6,7 +6,7 @@
 void sendTweet (int from, char tweet[])
 {
         for (int i = 0; i < N; i++) {
-                if (A[i]][from]) 
+                if (A[i][from]) 
                         receiveTweet(i, tweet);
         }
 }
